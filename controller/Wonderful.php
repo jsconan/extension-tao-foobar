@@ -14,26 +14,17 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * Copyright (c) 2017 (original work) Open Assessment Technologies SA;
- *
- *
+ * Copyright (c) 2018 Open Assessment Technologies SA ;
  */
-
-namespace oat\taoFooBar\scripts\update;
 
 /**
- * Class Updater
- * @package oat\taoTestTaker\scripts\update
+ * @author Jean-Sébastien Conan <jean-sebastien@taotesting.com>
  */
-class Updater extends \common_ext_ExtensionUpdater
+
+namespace oat\taoFooBar\controller;
+
+
+class Wonderful extends \tao_actions_CommonModule
 {
-    /**
-     * @param $initialVersion
-     * @return string $versionUpdatedTo
-     * @internal param string $currentVersion
-     */
-    public function update($initialVersion)
-    {
-        $this->skip('0.1.0', '0.5.0');
-    }
+
 }
