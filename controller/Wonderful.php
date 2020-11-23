@@ -26,5 +26,5 @@ namespace oat\taoFooBar\controller;
 
 class Wonderful extends \tao_actions_CommonModule
 {
-
+    function init() {}
 }
